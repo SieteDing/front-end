@@ -1,0 +1,61 @@
+1.
+表格
+<table>：用于标识一个表格对象的开始。一个表格对象中，只允许出现一对<table>标记。HTML5不再支持它的其他属性
+<tr>：用于标识表格某行中一个单元格的开始，表格中有多少对<tr>标记，就表示表格中有多少行。HTML5不再支持它的其他属性
+<td>：用于标识表格某行中一个单元格的开始，<td></td>标记应书写在<tr></tr>标记内，一对<tr></tr>标签内有多少对<td></td>,就表示该行有多少个单元格。HTML5中，<td>仅有colspan和rowspan两个属性。
+2.
+给表格增加标题
+在<table>和<tr>之间插入<caption></caption>标签
+3.
+定义表格的表头
+在<tr></tr>之间插入<th>,用<th>代替<td>
+4.
+<table border="1" bgcolor="green">，给表格添加边框，添加背景
+5.
+为表格添加背景图片 <table background="images/1.gif">
+6.
+单元格背景 <td backgroud="">  <td bgcolor="red">
+7.
+                         html使当前页面跳转到另一页面锚点处
+当前页面a.html
+另一页面b.html
+当前页面：
+<a href="b.html#aaa">跳转到b页面aaa处</a>
+另一页面：
+<a name="aaa" id="aaa">aaa</a>
+8.
+name 属性用于指定锚（anchor）的名称。name 属性可以创建（大型）文档内的书签。
+<a> 标签内必须提供 href 或 name 属性。
+9.
+#符号：要分清楚HTML和HTML语言
+在HTML语言当中的#是没有意义的，但是，#会出现在2个其他地方，分别是CSS以及a标签的href当中。
+1）当#出现在CSS当中时，也就是CSS选择器当中时
+#选择器名称{
+}
+这样的语法，表示的是“id类型的选择器”，比如如下代码，表示的就是id名为h5course的选择器
+#h5course{
+}
+但需要注意的是，在CSS当中书写的是 #+选择器名，而在HTML结构标签当中，则是用id去定义属性
+<div id="h5course">HTML5</div>
+2）当#出现在a标签的href属性当中时
+#表示的是锚链接
+锚链接是2008年左右的WEB前端开发产物，可以简单的理解为在一个页面当中，跳转到某个页面位置的链接
+比如：
+<a href="#test">点击后跳转到test位置</a>
+接收锚链接的则是使用name属性，比如：
+<div name="test">#后面的为锚链接的名字，接收的标签与a当中的锚链接名称应当相同</div>
+10.
+JavaScript 用法
+HTML 中的脚本必须位于 <script> 与 </script> 标签之间。
+脚本可被放置在 HTML 页面的 <body> 和 <head> 部分中。
+11.<script> 标签
+如需在 HTML 页面中插入 JavaScript，请使用 <script> 标签。
+<script> 和 </script> 会告诉 JavaScript 在何处开始和结束。
+12.JS和html区别
+js代码就是存在于html的，JS代码是脚本语言，HTML是文本标记语言，是要把JS代码放在HTML文本标记语言才可以运行的。可以放在HTML的任何部分或是引入都可以。一个是控制web的结构，一个是控制web的行为
+13.脚本语言是什么
+14.
+<strong><\strong>标签
+15.
+脚本可位于 HTML 的 <body> 或 <head> 部分中，或者同时存在于两个部分中。
+

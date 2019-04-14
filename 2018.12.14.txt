@@ -1,0 +1,27 @@
+1.
+表单输入多行文本框：textarea
+代码格式： <textarea name="..." cols="..." rows="..." wrap="..."></textarea>
+其中，name属性定义多行文本框的名称，要保证数据的准确采集，必须定义一个独一无二的名称
+cols定义多行文本框的宽度，单位是单个字符宽度；rows属性定义多行文本框的高度，单位是单个字符宽度。wrap属性定义输入内容大于文本域时显示的方式。
+2.
+表单属性radio,定义单选按钮。单选按钮都是以组为单位使用的，在同一组中的单选项都必须用同一个名称；value属性定义单选按钮的值。在同一组中，他们的域值必须是不同的。<input type="radio" name="book" value="Book1">我是猪<br>
+3.
+表单属性checkbox，定义复选框。让网页浏览者在一组选项里可以同时选择多个选项。每个复选框都是独立的元素，都必须有一个唯一的名称。
+<input type="checkbox" name=" " value=" ">
+若在后面加上checked，表示此复选框被默认选中（必选项），如：
+<input type="checkbox" name=" " value=" " checked>
+4.
+列表框select，列表框主要用于在有限的空间里设置多个选项，列表框既可以用作单选，也可以用作复选。代码格式如下：
+<form>
+<select name="fruit" size="7" mutiple>
+<option value="Book1" selected>读书
+<option value="Book1">画画
+<option value="Book1">背诗
+<option value="Book1">摄影
+<option value="Book1">吉他
+<option value="Book1">运动
+<option value="Book1">英语
+</option>
+</select>
+</form>
+size定义列表框的行数，name属性定义列表框的名称，mutiple属性表示可以多选，如果不设置该属性，name只能单选；value属性定义列表项的值，selected属性表示默认已经选中本选项。

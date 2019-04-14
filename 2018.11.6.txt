@@ -1,0 +1,6 @@
+1. <canvas>标签
+作用：用于图形的绘制，通过脚本（通常是JavaScript）来完成，标签只是图形容器，必须使用脚本来绘制图形。可以通过多种方法使用Canvas绘制路径、盒、圆、字符及添加图像。
+创建一个画布：一个画布在网页中是一个矩形框，通过<canvas>绘制，默认情况下<canvas>没有边框和内容,简单实例如下：
+<canvas id="myCanvas" width="200" height="100"></canvas>
+利用<style>属性来添加边框
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000; "></canvas>

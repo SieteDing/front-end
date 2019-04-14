@@ -1,0 +1,12 @@
+1.
+表格的行可以分组，航组分为三类：“表头”，“主体”，“脚注”。相应的HTML标记依次为<thhead> <tbody> <tfoot>
+2.
+<caption>表示表格的主题。
+3.
+表单主要用于收集网页上浏览者的信息，标签为<form></form>，表单基本语法格式如下：
+<form action="url" method="get|post" enctype="mime"></form>
+其中，action="url"指定提交表单的格式。它可以是一个URL地址或一个电子邮件地址。method="get" 或 "post"指明提交表单的HTTP方法。
+enctype="mime"指明用来把表单提交给服务器时的互联网媒体模式。
+input用于收集用户信息
+type属性规定要显示的<input>元素的类型。默认类型是text，该属性不是必须的。具体有哪些可取值，这些值的作用，搜呗，比如button，checkbox，color，date，datetime，datatime-local，email，file，hidden，image，month，number，passward，radio，range，reset，search，submit，time，url，week。
+4.

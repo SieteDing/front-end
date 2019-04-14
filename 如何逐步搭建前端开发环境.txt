@@ -1,0 +1,46 @@
+1.操作系统
+操作系统主要是为应用软件（例如office，微信）提供运行平台，同时负责管理计算机硬件（CPU，内存）资源
+目前主流的桌面级操作系统及其对应最新版本是Windows10 Pro 1803 和MacOS10.13.5
+Windows可以用来开发运行在Windows和Linux上的应用（前提条件是可以跨平台运行）以及各种运行在PC端的游戏
+而少数一线互联网公司使用MacOS作为开发平台，因为绝大多数服务端的应用都运行在类Unix的机器之上，而MacOS是Unix修改而来的，主要用来开发运行在iPhone，iPad，Mac和Apple Watch的应用
+
+2.编辑器
+目前业界比较受欢迎的编辑器包括Sublime Text，Visual Studio Code，Atom，他们都支持主流的桌面系统，例如Windows10 Pro，MacOS10.13，Ubuntu18.04   可以根据各自喜好选择他们来编写网页程序。综合考虑，这里决定在学习HTML5+CSS3+JS时使用Visual Studio Code，而在前端综合项目时使用WebStorm作为主力开发工具
+
+3.VS Code集成GitHub
+GitHub是一个面向开源及私有项目托管平台，为了方便项目的分布式管理，使用GitHub来托管项目
+
+4.前端开发工具
+1）代码编辑器：sublime、webstorm
+
+
+2）断点调试工具：batarang
+
+
+3）版本控制器：git小乌龟
+
+
+4）开发和调试工具：NodeJs
+
+
+5）代码合并和混淆工具：grunt
+
+
+6）依赖管理工具：bower
+
+
+7）轻量级的server：http-server
+
+
+8）单元测试runner：jasmine、karma
+
+
+9）专门为angular定制的测试工具：protractor
+
+
+
+5.浏览器
+浏览器是用户用来浏览网页的应用软件，目前世界上主流的浏览器有Chrome，FireFox，IE10+，Microsoft Edge，Safari，Opera等等。
+浏览器内核主要由渲染引擎和JavaScript引擎组成。
+
+6.服务器
